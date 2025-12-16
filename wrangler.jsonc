@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "account_id": "07c56e0dc4b3b1597495aa78fe7ebbf8",
+  "account_id": "ab5a330d7b1335b45af7fb580bfecfc4",
   "analytics_engine_datasets": [
     {
       "binding": "ANALYTICS"
@@ -10,13 +10,13 @@
   "kv_namespaces": [
     {
       "binding": "CACHE_KV",
-      "id": "4d5895d8716247f486493b93edbc5fe9",
-      "preview_id": "e9e499fe006e4879a0668e792fe2dd15"
+      "id": "78c45f59933a46c8be508eadd5e67566",
+      "preview_id": "d0947e9d6cdf49b394fa81f6a50db33f"
     },
     {
       "binding": "RATE_LIMIT_KV",
-      "id": "07147ca64a4c48fe952f62afe469bb44",
-      "preview_id": "bbed039364e5488e8ed58701c3ee5da5"
+      "id": "88dd3f964941458f80059e0089ae00db",
+      "preview_id": "ae93036670a84277a7d6034c0725c696"
     }
   ],
   "main": "src/index.ts",
@@ -44,7 +44,7 @@
   },
   "vars": {
     "DEBUG_MODE": "false",
-    "PROXY_URLS": "https://0.xdpl.xixu.dpdns.org/jsonrpc,https://1.xdpl.xixu.dpdns.org/jsonrpc,https://2.xdpl.xixu.dpdns.org/jsonrpc,https://3.xdpl.xixu.dpdns.org/jsonrpc,https://4.xdpl.xixu.dpdns.org/jsonrpc,https://5.xdpl.xixu.dpdns.org/jsonrpc,https://6.xdpl.xixu.dpdns.org/jsonrpc,https://7.xdpl.xixu.dpdns.org/jsonrpc,https://8.xdpl.xixu.dpdns.org/jsonrpc,https://9.xdpl.xixu.dpdns.org/jsonrpc"
+    "PROXY_URLS": "https://deeplx-xdpl.vercel.app/jsonrpc,https://0.xdpl.xixu.dpdns.org/jsonrpc,https://1.xdpl.xixu.dpdns.org/jsonrpc,https://2.xdpl.xixu.dpdns.org/jsonrpc,https://3.xdpl.xixu.dpdns.org/jsonrpc,https://4.xdpl.xixu.dpdns.org/jsonrpc,https://5.xdpl.xixu.dpdns.org/jsonrpc,https://6.xdpl.xixu.dpdns.org/jsonrpc,https://7.xdpl.xixu.dpdns.org/jsonrpc,https://8.xdpl.xixu.dpdns.org/jsonrpc,https://9.xdpl.xixu.dpdns.org/jsonrpc"
   },
   "workers_dev": false
 }
